@@ -1,0 +1,102 @@
+/*
+Importar fonte do google fonts
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+
+:root {
+    --header-bg-1: #705714;
+    --header-bg-2: blue;
+    --logo-bg: black;
+    --text-hover: cyan;
+}
+
+header {
+    width: 100vw;
+    height: 8rem;
+    max-height: 10rem;
+    background-color: black;
+    max-width: 100vw;
+}
+
+.logo {
+    position: absolute;
+    height: inherit;
+    width: 25rem;
+    background-color: var(--logo-bg);
+    border-top-right-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.logo img {
+    position: absolute;
+    width: 8rem;
+    left: 2rem;
+    top: -.75rem;
+}
+
+.head1 {
+    background-color: var(--header-bg-1);
+    height: 3rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0.5rem;
+    padding-right: 4rem;
+    gap: 1.5rem;
+}
+
+.head2 {
+    background-color: var(--header-bg-2);
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 2rem;
+    padding-right: 6rem;
+    gap: 2rem;
+    font-size: xx-large;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.head1 a:hover {
+    color: var(--text-hover);
+
+}
+
+.head2 a:hover {
+    scale: 1.1;
+    color: var(--text-hover);
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    transition: 1s;
+    z-index: 1001;
+    animation: slideDown .5s forwards ease;
+}
+/* animação do "descendo" */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
