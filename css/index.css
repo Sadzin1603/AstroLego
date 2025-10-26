@@ -1,3 +1,6 @@
+body{
+    background-color: #fffafa;
+}
 .banner {
     height: 51.41rem;
     background-image: url(../imgs/banner.png);
@@ -7,7 +10,8 @@
 }
 
 .info {
-    width: 100vw;
+    width: 100dvw;
+    height: 40rem;
     display: flex;
     padding: 2rem;
     align-items: center;
@@ -23,14 +27,16 @@
 
 .info .foto {
     width: 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .foto img {
-    width: 30rem;
+    width: 40rem;
     border-radius: 2rem;
-    border: 4px outset rgba(1, 0, 164, 0.58);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
 .dados {
@@ -59,6 +65,13 @@
 }
 .card{
     width: 15rem;
+    transition: .5s;
+}
+.card:hover{
+    scale: 1.1;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        transform: translateY(-5px);
+        transition: all 0.3s ease;
 }
 .estatiticas {
     width: 40%;
@@ -84,6 +97,9 @@
     text-align: center;
 }
 
+.estatiticas div h1:hover {
+    animation: pulse .3s ease;
+}
 .estatiticas div:nth-child(1) {
     grid-column: 2 / 3; 
 }
@@ -100,4 +116,10 @@
     height: .2rem;
     margin: 3rem auto;
     background-color: grey;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
 }
