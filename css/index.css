@@ -118,6 +118,19 @@ body{
     background-color: grey;
 }
 
+.patrocinador{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 250%;
+    text-decoration: none;
+    color: black;
+}
+.patrocinador img{
+    height: 20rem;
+}
+
 @keyframes pulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.1); }

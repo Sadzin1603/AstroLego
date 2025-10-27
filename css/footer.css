@@ -1,0 +1,64 @@
+
+footer{
+    height: 10rem;
+    width: 100dvw;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer .img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 33%;
+    width: 376px;
+    padding-right: 90px;
+    overflow: hidden;
+}
+footer #logo{
+    width: 10rem;
+}
+
+
+footer .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Adicione esta linha */
+    height: 100%; /* Adicione esta linha */
+    max-width: 33%;
+    width: 33%;
+    width: 376px;
+}
+
+footer .icon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 5px 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: 1s;
+}
+
+footer .icon:hover{
+    background-color: cyan;
+    scale: 1.1;
+}
+
+footer .copyright-text {
+    /* Garantir que o texto também fique centralizado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 33%;
+    width: 376px;
+}
