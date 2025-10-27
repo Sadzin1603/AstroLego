@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quantico", sans-serif;
+}
 body{
     background-color: #fffafa;
 }
@@ -17,9 +24,10 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+.info h1{
+    overflow: hidden;
+}
 .info .text {
-    text-align: center;
     width: 50%;
     font-size: 150%;
     padding-left: 3rem;
@@ -38,7 +46,13 @@ body{
     border-radius: 2rem;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
-
+.titulo{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 300%;
+    
+}
 .dados {
     width: 100vw;
     padding: 3rem;
@@ -50,7 +64,6 @@ body{
     height: inherit;
     width: .1rem;
     background-color: grey;
-
 }
 
 .premios {
@@ -66,6 +79,7 @@ body{
 .card{
     width: 15rem;
     transition: .5s;
+    text-align: center;
 }
 .card:hover{
     scale: 1.1;
@@ -92,7 +106,8 @@ body{
 }
 
 .estatiticas div h1 {
-    font-size: 200%;
+    overflow: hidden;
+    font-size: 300%;
     color: red;
     text-align: center;
 }
@@ -126,6 +141,8 @@ body{
     font-size: 250%;
     text-decoration: none;
     color: black;
+    padding: 3rem;  
+    margin-bottom: 3rem;
 }
 .patrocinador img{
     height: 20rem;

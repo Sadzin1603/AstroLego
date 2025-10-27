@@ -27,7 +27,7 @@ header {
 .logo {
     position: absolute;
     height: inherit;
-    width: 25rem;
+    width: 18rem;
     background-color: var(--logo-bg);
     border-top-right-radius: 50% 100%;
     border-bottom-right-radius: 50% 100%;
@@ -38,7 +38,7 @@ header {
 .logo img {
     position: absolute;
     width: 8rem;
-    left: 2rem;
+    left: 3.5rem;
     top: -.75rem;
 }
 
