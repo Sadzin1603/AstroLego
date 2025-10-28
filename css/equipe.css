@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Quantico", sans-serif;
+    
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 
 .principal {
     display: flex;
-    height: 40rem;
+    min-height: 40rem;
     width: 100dvw;
     align-items: center;
     padding: 2rem;
@@ -26,12 +27,51 @@ body {
     align-items: center;
     justify-content: center;
 }
-.carrossel{
+
+.carrossel {
     width: 50%;
     height: 100%;
     padding: 2rem;
 }
-.carrossel .carousel-inner,.carrossel .carousel,.carrossel .carousel-item, .carrossel img{
+
+.carrossel .carousel-inner,
+.carrossel .carousel,
+.carrossel .carousel-item,
+.carrossel img {
     height: 100%;
+
+}
+
+.equipamentos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+
+.cards {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.card{
+    text-align: center;
+}
+.card h5{
+    line-height: 1.4;
+}
+
+.equipe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
