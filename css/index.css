@@ -23,6 +23,7 @@ body{
     padding: 2rem;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap
 }
 .info h1{
     overflow: hidden;
@@ -42,7 +43,8 @@ body{
 }
 
 .foto img {
-    width: 40rem;
+    max-width: 80%;
+
     border-radius: 2rem;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
@@ -57,6 +59,7 @@ body{
     width: 100vw;
     padding: 3rem;
     display: flex;
+    flex-wrap: wrap
 
 }
 
@@ -143,6 +146,7 @@ body{
     color: black;
     padding: 3rem;  
     margin-bottom: 3rem;
+    flex-wrap: wrap
 }
 .patrocinador img{
     height: 20rem;
