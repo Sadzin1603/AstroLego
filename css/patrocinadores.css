@@ -1,3 +1,6 @@
+:root{
+    --bg:#F5F5F5;
+}
 main{
     width: 100%;
     display: flex;
@@ -12,9 +15,10 @@ main .buttons{
     gap: 1rem;
 }
 .infos{
-    background-color: white;
+    background-color: var(--bg);
     padding: 2rem;
     display: flex;
+    border-radius: 2rem;
 }
 .infos .text{
     width: 50%;
