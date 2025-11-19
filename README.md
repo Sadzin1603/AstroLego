@@ -1,2 +1,3 @@
-# AstroLab
-Repositorio para o site de robotica do time AstroLab
+# AstroLego
+Repositorio para o site de robotica do time AstroLego
+
