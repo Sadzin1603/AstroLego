@@ -14,6 +14,8 @@ body{
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .info {
@@ -27,11 +29,13 @@ body{
 }
 .info h1{
     overflow: hidden;
+    text-align: center;
 }
 .info .text {
     width: 50%;
     font-size: 150%;
     padding-left: 3rem;
+    text-align: justify;
 }
 
 .info .foto {

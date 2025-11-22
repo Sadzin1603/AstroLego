@@ -9,11 +9,11 @@ Importar fonte do google fonts
 }
 
 :root {
-    --header-bg-1: #705714;
-    --header-bg-2: blue;
-    --logo-bg: black;
-    --text-hover: cyan;
-    --text-underline: red;
+    --header-bg-1: #101010;
+    --header-bg-2: #202020;
+    --logo-bg: #101010;
+    --text-hover: #fa0f15;
+    --text-underline: #004ace;
 }
 
 header {
@@ -24,13 +24,13 @@ header {
 
 .logo {
     position: absolute;
-    height: inherit;
     width: 18rem;
+    height: inherit;
     background-color: var(--logo-bg);
-    border-top-right-radius: 50% 100%;
-    border-bottom-right-radius: 50% 100%;
     z-index: 1000;
-    overflow: hidden;
+
+    /* Corte diagonal */
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%)
 }
 
 .logo img {

@@ -2,7 +2,7 @@
 footer{
     height: 10rem;
     width: 100%;
-    background-color: #111111;
+    background-color: #101010;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ footer .icon{
 }
 
 footer .icon:hover{
-    background-color: cyan;
+    background-color: #004ace;
     scale: 1.1;
 }
 
