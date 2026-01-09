@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
   // Textos para cada modo
   const textos = {
     dinheiro: [
-      "Apoio financeiro básico que ajuda com materiais simples e deslocamento.",
-      "Suporte financeiro intermediário, cobre parte de equipamentos e transporte.",
-      "Principal patrocinador financeiro, cobre boa parte dos custos do projeto.",
-      "Esse apoio mantém a equipe ativa em campeonatos e pesquisas.",
-      "Marca em banners, uniformes e redes sociais oficiais."
+      "Menção nas redes sociais da equipe (Instagram, tiktok, github e linkedin) Logo do patrocinador no matérias extras (broches, panfletos, banners e etc...) Certificado de patrocinador da SESI Astro Lego",
+      "Todos os benefícios do plano bronze Logo do patrocinador na camisa Post em Destaque (fixo) nas redes sociais de agradecimento e divulgação Acesso a guia geral do planejamento de projetos, marketing e integrantes da equipe.",
+      "Todos os benefícios dos planos bronze e prata Logo da empresa em Destaque nos robôs e em todos os matérias oficiais da equipe. Menção verbal e propaganda em entrevistas e em apresentações sociais SESI Artigo ou post dedicado a empresa no site oficial da Astro Plano de divulgação exclusivo.",
+      "Fortalecer a equipe de robótica AstroLego, promovendo inovação tecnológica, inclusão educacional e desenvolvimento de competências STEM (Ciência, Tecnologia, Engenharia e Matemática) entre jovens talentos. Os patrocinadores terão a oportunidade de associar sua marca a uma iniciativa de impacto social e tecnológico.",
+      "lorem"
     ],
     pecas: [
       "Doação de pequenas peças e componentes para protótipos.",
