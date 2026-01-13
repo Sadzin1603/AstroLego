@@ -144,6 +144,7 @@ header a {
     }
     .head2{
         height: 100%;
+        padding-right: 50px;
     }
     .head2>a {
         display: none;

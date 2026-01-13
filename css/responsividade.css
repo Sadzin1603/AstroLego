@@ -22,6 +22,7 @@
 
     .dados {
         flex-direction: column;
+        padding: 40px 10px;
     }
 
     .dados .barra {
@@ -33,6 +34,7 @@
         width: 100%;
         max-width: 100%;
         padding: 0;
+        
     }
 
     .dados .card {
