@@ -2,22 +2,24 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AstroLego - Equipe de Robótica</title>
-    <link rel="shortcut icon" href="imgs/logo-nobg.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imgs/logo-nobg.png" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/index.css">
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsividade.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <img src="imgs/logo-nobg.png" alt="" id="logo">
+            <img src="imgs/logo-nobg.png" alt="" id="logo" />
         </div>
         <div class="head1">
             <!--WhatsApp-->
@@ -38,29 +40,22 @@
         </div>
         <div class="head2">
             <!--Inicio-->
-            <a href="index.html">
-                Inicio
-            </a>
+            <a href="index.html"> Inicio </a>
             <!--Equipe-->
-            <a href="pages/equipe.html">
-                Equipe
-            </a>
+            <a href="pages/equipe.html"> Equipe </a>
             <!--Robos-->
-            <a href="pages/robos.html">
-                Nossos Robos
-            </a>
+            <a href="pages/robos.html"> Nossos Robos </a>
             <!--Patrocinadores-->
-            <a href="pages/patrocinadores.html">
-                Patrocinadores
-            </a>
+            <a href="pages/patrocinadores.html"> Patrocinadores </a>
             <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
                 aria-controls="staticBackdrop" id="paginas">
-                |||
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra"></div>
             </button>
 
             <div class="offcanvas offcanvas-start" data-bs-backdrop="true" data-bs-scroll="false" tabindex="-1"
                 id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="staticBackdropLabel">Menu</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -68,20 +63,27 @@
                 <div class="offcanvas-body">
                     <div>
                         <!--Inicio-->
-                        <a href="index.html">
-                            Inicio
-                        </a>
+                        <a href="index.html"> Inicio </a>
                         <!--Equipe-->
-                        <a href="pages/equipe.html">
-                            Equipe
-                        </a>
+                        <a href="pages/equipe.html"> Equipe </a>
                         <!--Robos-->
-                        <a href="pages/robos.html">
-                            Nossos Robos
-                        </a>
+                        <a href="pages/robos.html"> Nossos Robos </a>
                         <!--Patrocinadores-->
-                        <a href="pages/patrocinadores.html">
-                            Patrocinadores
+                        <a href="pages/patrocinadores.html"> Patrocinadores </a>
+                        <!--WhatsApp-->
+                        <a href="https://api.whatsapp.com/send?phone=5581983460994" target="_blank">
+                            <i class="bi bi-whatsapp"></i>
+                            +55 81 8346-0994
+                        </a>
+                        <!--Email-->
+                        <a href="mailto:astrolego23@gmail.com?subject=Contato%20sobre%20a%AstroLego">
+                            <i class="bi bi-envelope"></i>
+                            astrolego23@gmail.com
+                        </a>
+                        <!--Instagram-->
+                        <a href="https://www.instagram.com/astrolego_obr/" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                            astrolego_obr
                         </a>
                     </div>
                 </div>
@@ -90,23 +92,23 @@
     </header>
 
     <!--Banner-->
-    <div class="banner">
-
-    </div>
+    <div class="banner"></div>
     <!--Informações-->
     <div class="info" data-aos="fade-right" data-aos-duration="500" data-aos-delay="200">
         <!--Texto-->
         <div class="text">
             <h1><strong>SOBRE NÓS</strong></h1>
-            Somos a equipe AstroLego, uma equipe voltada para a inovação, pesquisa e aprendizado através da tecnologia.
-            Formada por estudantes do SESI Paulista, atuando no desenvolvimento de robôs autônomos, aplicando conceitos
-            de engenharia, programação e design para a Olímpiada Brasileira de Robótica (OBR). Nosso objetivo é
-            aprimorar nossas habilidades técnicas e impulsionar a pesquisa e inovação técnologica na nossa instituição
-            SESI e em Pernambuco através das olímpiadas.
+            Somos a equipe AstroLego, uma equipe voltada para a inovação, pesquisa e
+            aprendizado através da tecnologia. Formada por estudantes do SESI
+            Paulista, atuando no desenvolvimento de robôs autônomos, aplicando
+            conceitos de engenharia, programação e design para a Olímpiada
+            Brasileira de Robótica (OBR). Nosso objetivo é aprimorar nossas
+            habilidades técnicas e impulsionar a pesquisa e inovação técnologica na
+            nossa instituição SESI e em Pernambuco através das olímpiadas.
         </div>
         <!--Foto da equipe-->
         <div class="foto">
-            <img src="imgs/equipes/equipe.jpeg" alt="">
+            <img src="imgs/equipes/equipe.jpeg" alt="" />
         </div>
     </div>
     <div class="divisor"></div>
@@ -118,43 +120,43 @@
     <div class="dados">
         <div class="barra"></div>
         <div class="premios">
-            <div class="card" data-aos="flip-left">
-                <p style="text-align: center;">OBR/PE</p>
-                <img src="imgs/premio.png" class="card-img-top" alt="Imagem trofeu/premio">
+            <div class="card" data-aos="">
+                <p style="text-align: center">OBR/PE</p>
+                <img src="imgs/premio.png" class="card-img-top" alt="Imagem trofeu/premio" />
                 <div class="card-body">
                     <p class="card-text">Prêmio de design - 2025</p>
                 </div>
             </div>
-            <div class="card" data-aos="flip-left">
-                <p style="text-align: center;">OBR/PE</p>
-                <img src="imgs/premio.png" class="card-img-top" alt="Imagem trofeu/premio">
+            <div class="card" data-aos="">
+                <p style="text-align: center">OBR/PE</p>
+                <img src="imgs/premio.png" class="card-img-top" alt="Imagem trofeu/premio" />
                 <div class="card-body">
                     <p class="card-text">Prêmio de Inovação - 2024</p>
                 </div>
             </div>
-            <div class="card" data-aos="flip-left">
-                <p style="text-align: center;">OBR/PE</p>
-                <img src="imgs/premio.png" class="card-img-top" alt="Imagem trofeu/premio">
+            <div class="card" data-aos="">
+                <p style="text-align: center">OBR/PE</p>
+                <img src="imgs/premio.png" class="card-img-top" alt="Imagem trofeu/premio" />
                 <div class="card-body">
-                    <p class="card-text">Prêmio de inovação - 2025 </p>
+                    <p class="card-text">Prêmio de inovação - 2025</p>
                 </div>
             </div>
-            <div class="card" data-aos="flip-left">
-                <p style="text-align: center;">OBR/PE</p>
-                <img src="imgs/premio.png" class="card-img-top" alt="Imagem trofeu/premio">
+            <div class="card" data-aos="">
+                <p style="text-align: center">OBR/PE</p>
+                <img src="imgs/premio.png" class="card-img-top" alt="Imagem trofeu/premio" />
                 <div class="card-body">
                     <p class="card-text">Prêmio de melhor escola privada - 2025</p>
                 </div>
             </div>
-            <div class="card" data-aos="flip-left">
-                <p style="text-align: center;">OBR/PE</p>
-                <img src="imgs/premio.png" class="card-img-top" alt="Imagem trofeu/premio">
+            <div class="card" data-aos="">
+                <p style="text-align: center">OBR/PE</p>
+                <img src="imgs/premio.png" class="card-img-top" alt="Imagem trofeu/premio" />
                 <div class="card-body">
                     <p class="card-text">Prêmio 3° Lugar - 2025</p>
                 </div>
             </div>
         </div>
-        <div class="estatiticas" data-aos="fade-left">
+        <div class="estatiticas">
             <div>
                 <h1>3</h1>
                 Anos de história
@@ -174,17 +176,19 @@
         <div class="texto">
             <p>Gotou do nosso projeto?</p>
             <p>Seja um patrocinador!</p>
-            <p>Clique <a href="/pages/patrocinadores.html" style="color: blue; text-decoration: none;">AQUI</a> para
-                apoiar o
-                nosso projeto!</p>
+            <p>
+                Clique
+                <a href="/pages/patrocinadores.html" style="color: blue; text-decoration: none">AQUI</a>
+                para apoiar o nosso projeto!
+            </p>
         </div>
         <a href="/pages/patrocinadores.html">
-            <img src="imgs/patrocinador.png" alt="">
+            <img src="imgs/patrocinador.png" alt="" />
         </a>
     </div>
     <footer>
         <div class="img">
-            <img src="imgs/logo-nobg.png" alt="Logo da Astolego de um astronauta" id="logo">
+            <img src="imgs/logo-nobg.png" alt="Logo da Astolego de um astronauta" id="logo" />
         </div>
         <div class="icons">
             <a href="https://api.whatsapp.com/send?phone=5581983460994" target="_blank" class="icon"><i
@@ -197,7 +201,10 @@
         </div>
         <div class="copyright-text">
             <p>Copyright <i class="bi bi-c-circle"></i> 2025 AstroLego</p>
-            <p>Feito por <a href="https://www.github.com/Sadzin1603" target="_blank">Kauan Rossi</a></p>
+            <p>
+                Feito por
+                <a href="https://www.github.com/Sadzin1603" target="_blank">Kauan Rossi</a>
+            </p>
         </div>
     </footer>
 

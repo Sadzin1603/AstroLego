@@ -1,0 +1,50 @@
+@media screen and (max-width: 770px) {
+    .banner {
+        display: none;
+    }
+
+    /* INFORMAÇÕES */
+    .info {
+        flex-direction: column-reverse;
+        height: 100%;
+        gap: 50px;
+        padding: 40px 10px;
+    }
+
+    .info .text {
+        width: 90%;
+        padding: 0;
+    }
+
+    .info .foto {
+        width: 100%;
+    }
+
+    .dados {
+        flex-direction: column;
+    }
+
+    .dados .barra {
+        display: none;
+        padding: 40px 10px;
+    }
+
+    .dados .premios {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .dados .card {
+        width: 150px;
+    }
+
+    .dados .estatiticas {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        gap: 100px;
+    }
+}
