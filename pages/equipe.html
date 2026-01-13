@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <header>
+     <header>
         <div class="logo">
-            <img src="../imgs/logo-nobg.png" alt="" id="logo">
+            <img src="../imgs/logo-nobg.png" alt="" id="logo" />
         </div>
         <div class="head1">
             <!--WhatsApp-->
@@ -38,21 +38,54 @@
         </div>
         <div class="head2">
             <!--Inicio-->
-            <a href="../index.html">
-                Inicio
-            </a>
+            <a href="../index.html"> Inicio </a>
             <!--Equipe-->
-            <a href="equipe.html">
-                Equipe
-            </a>
+            <a href="equipe.html"> Equipe </a>
             <!--Robos-->
-            <a href="robos.html">
-                Nossos Robos
-            </a>
+            <a href="robos.html"> Nossos Robos </a>
             <!--Patrocinadores-->
-            <a href="patrocinadores.html">
-                Patrocinadores
-            </a>
+            <a href="patrocinadores.html"> Patrocinadores </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                aria-controls="staticBackdrop" id="paginas">
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra"></div>
+            </button>
+
+            <div class="offcanvas offcanvas-start" data-bs-backdrop="true" data-bs-scroll="false" tabindex="-1"
+                id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="staticBackdropLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        <!--Inicio-->
+                        <a href="../index.html"> Inicio </a>
+                        <!--Equipe-->
+                        <a href="equipe.html"> Equipe </a>
+                        <!--Robos-->
+                        <a href="robos.html"> Nossos Robos </a>
+                        <!--Patrocinadores-->
+                        <a href="patrocinadores.html"> Patrocinadores </a>
+                        <!--WhatsApp-->
+                        <a href="https://api.whatsapp.com/send?phone=5581983460994" target="_blank">
+                            <i class="bi bi-whatsapp"></i>
+                            +55 81 8346-0994
+                        </a>
+                        <!--Email-->
+                        <a href="mailto:astrolego23@gmail.com?subject=Contato%20sobre%20a%AstroLego">
+                            <i class="bi bi-envelope"></i>
+                            astrolego23@gmail.com
+                        </a>
+                        <!--Instagram-->
+                        <a href="https://www.instagram.com/astrolego_obr/" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                            astrolego_obr
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
