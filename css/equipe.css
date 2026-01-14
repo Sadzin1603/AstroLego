@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Quantico", sans-serif;
-    
+
 }
 
 body {
@@ -28,8 +28,10 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size: 22px;
 }
-.text h1{
+
+.text h1 {
     margin-bottom: 2rem;
 }
 
@@ -44,39 +46,31 @@ body {
 .carrossel .carousel-item,
 .carrossel img {
     height: 100%;
+    border-radius: 20px;
 
 }
 
-.equipamentos {
+.equipe {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-}
-h1{
-    line-height: 1.5;
-    font-size: 2.5rem;
+    padding: 80px 8%;
+
 }
 
 .cards {
     padding: 2rem;
     display: flex;
     gap: 2rem;
-}
-.card{
-    text-align: center;
-}
-.card h5{
-    line-height: 1.4;
+    flex-wrap: wrap;
 }
 
-.equipe{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+.card {
+    text-align: center;
+}
+
+.card h5 {
+    line-height: 1.4;
 }

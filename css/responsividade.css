@@ -34,7 +34,7 @@
         width: 100%;
         max-width: 100%;
         padding: 0;
-        
+
     }
 
     .dados .card {
@@ -48,5 +48,33 @@
         justify-items: center;
         align-items: center;
         gap: 100px;
+    }
+
+    /* Equipes */
+    .principal {
+        flex-direction: column-reverse;
+        padding: 0;
+        padding: 40px 10px;
+    }
+
+    .principal .text {
+        width: 90%;
+    }
+    .equipe{
+        padding: 40px 10px;
+    }
+    .carrossel {
+        width: 100%;
+        padding: 20px;
+    }
+    .cards{
+        padding: 0;
+        justify-content: center;
+    }
+    .card{
+        width: 150px !important;
+    }
+    .card img{
+        height: 148px;
     }
 }
