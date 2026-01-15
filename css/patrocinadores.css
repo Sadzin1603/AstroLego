@@ -23,6 +23,10 @@ main .buttons{
 .infos .text{
     width: 50%;
 }
+.infos p{
+    font-size: 110%;
+    padding-left: 10px;
+}
 .infos .fotos{
     display: flex;
     width: 50%;
@@ -32,3 +36,9 @@ main .buttons{
 img{
     width: 20rem;
 }
+
+@media screen and (max-width: 770px) {
+    main{
+        padding: 40px 4%;
+    }
+}  

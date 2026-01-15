@@ -5,10 +5,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Quantico", sans-serif;
+    letter-spacing: -1px;
 }
 
 body {
     background-color: #fffafa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 .banner {
@@ -102,7 +110,7 @@ body {
 }
 
 .card {
-    width: 15rem;
+    width: 10rem;
     transition: .5s;
     text-align: center;
 }
@@ -180,6 +188,11 @@ body {
     height: 20rem;
 }
 
+.seta {
+    animation: floating 1.2s ease-in-out infinite;
+}
+
+
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -191,5 +204,17 @@ body {
 
     100% {
         transform: scale(1);
+    }
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(6px);
+    }
+    100% {
+        transform: translateY(0);
     }
 }

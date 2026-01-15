@@ -60,21 +60,57 @@
     .principal .text {
         width: 90%;
     }
-    .equipe{
+
+    .equipe {
         padding: 40px 10px;
     }
+
     .carrossel {
         width: 100%;
         padding: 20px;
     }
-    .cards{
+
+    .cards {
         padding: 0;
         justify-content: center;
+        flex-wrap: wrap;
     }
-    .card{
+
+    .card {
         width: 150px !important;
     }
-    .card img{
+
+    .card img {
         height: 148px;
+    }
+
+    /* ROBOS */
+    .robo {
+        flex-direction: column-reverse;
+        padding: 40px 10px;
+    }
+
+    .invertido{
+        flex-direction: column;
+    }
+
+    .esq,
+    .dir {
+        width: 100%;
+        padding: 8px;
+    }
+
+    /* PATROCINADORES */
+    .infos{
+        justify-content: center;
+    }
+    .infos .text{
+        width: 100%;
+    }
+    .infos p{
+        padding-left: 5px;
+    }
+    .infos .fotos{
+        display: none;
     }
 }

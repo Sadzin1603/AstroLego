@@ -145,9 +145,12 @@ header a {
     .head2{
         height: 100%;
         padding-right: 50px;
+        font-size: 30px;
     }
+
     .head2>a {
         display: none;
+        
     }
     .offcanvas{
         width: 100% !important;
@@ -165,6 +168,7 @@ header a {
     .offcanvas-body div {
         display: flex;
         flex-direction: column;
+        gap: 20px;
     }
     .btn-close{
         background-color: red;
