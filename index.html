@@ -40,6 +40,8 @@
             </a>
         </div>
         <div class="head2">
+            <!-- Modo escuro -->
+            <i class="bi bi-moon-fill" id="escuro"></i>
             <!--Inicio-->
             <a href="index.html"> Inicio </a>
             <!--Equipe-->
@@ -121,7 +123,7 @@
         </div>
         <!--Foto da equipe-->
         <div class="foto">
-            <img src="imgs/equipes/equipe.jpeg" alt="" />
+            <img class="ampliar" src="imgs/equipes/equipe.jpeg" alt="" />
         </div>
     </div>
     <div class="divisor"></div>
@@ -220,6 +222,12 @@
             </p>
         </div>
     </footer>
+    <!-- MODAL PARA IMAGEM -->
+    <div class="image-modal" id="imageModal">
+        <span class="close">&times;</span>
+        <img class="modal-img" id="modalImg">
+    </div>
+
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -229,6 +237,7 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <script src="/js/header.js"></script>
+    <script src="js/ampliar_img.js"></script>
 </body>
 
 </html>

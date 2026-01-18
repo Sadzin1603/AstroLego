@@ -99,6 +99,10 @@ header a {
 .head2>a:hover::after {
     width: 100%;
 }
+.head2 i{
+    color: #fff;
+    cursor: pointer;
+}
 
 .fixed {
     position: fixed;

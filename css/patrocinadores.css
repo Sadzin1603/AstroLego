@@ -15,7 +15,7 @@ main .buttons{
     gap: 1rem;
 }
 .infos{
-    background-color: var(--bg);
+    background-color: #8a8a8a31;
     padding: 2rem;
     display: flex;
     border-radius: 2rem;
