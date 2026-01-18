@@ -20,7 +20,7 @@ window.addEventListener('scroll', () => {
 
 // Modo escuro muehehe
 let tema = localStorage.getItem('tema') // Pega o tema que ja está na memoria
-console.log(tema)
+// console.log(tema)
 let btn_mudar = document.getElementById('escuro')
 btn_mudar.addEventListener('click', mudarTema)
 

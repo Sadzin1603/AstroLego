@@ -9,6 +9,7 @@
     min-height: 40rem;
     font-size: 150%;
     text-align: justify;
+    padding: 80px 4%;
 }
 
 .esq,
@@ -21,7 +22,7 @@
     padding: 2rem;
 }
 h1{
-    margin-bottom: 5rem;
+    
 }
 .divisor{
     width: 90vw;

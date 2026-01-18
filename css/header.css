@@ -136,6 +136,9 @@ header a {
 }
 
 @media (max-width:1100px) {
+    .logo{
+        width: 15rem;
+    }
     #paginas {
         display: flex;
         align-items: center;

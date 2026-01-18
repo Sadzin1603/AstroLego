@@ -30,6 +30,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .banner a {
@@ -283,3 +284,15 @@ img.ampliar {
     color: #fff;
 }
 
+.star{
+    position: absolute;
+    opacity: 50%;
+    animation: mover 10s linear infinite;
+}
+@keyframes mover{
+    
+    100%{
+        left: 105%;
+    }
+    
+}
