@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 main {
@@ -21,25 +22,34 @@ main {
 
 .banner {
     height: 90vh;
-    background-image: url(../imgs/banner.png);
+    background: #b30003;
+    background: linear-gradient(90deg, rgba(179, 0, 3, 1) 0%, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 1) 65%, rgba(0, 58, 166, 1) 100%);
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-position: center;
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(93, 0, 255, 0.815);
+
+}
+
+.banner h1 {
+    font-weight: 700;
 }
 
 .banner a {
+    margin-top: 500px !important;
     color: #fff;
+    text-shadow: 0 0 10px rgba(93, 0, 255, 0.815);
     text-decoration: none;
 }
 
 .banner span {
-    color: #004ace;
+    padding-left: 250px;
 }
 
 .info {
@@ -83,7 +93,7 @@ main {
     text-align: center;
     font-weight: 700;
     font-size: 300%;
-
+    z-index: 100;
 }
 
 .dados {
@@ -279,20 +289,34 @@ img.ampliar {
     }
 }
 
+
+
+#logo-banner {
+    width: 600px;
+    position: absolute;
+    z-index: 99;
+    opacity: .9;
+}
+
 .dark-mode {
     background: #0c0c0c;
     color: #fff;
 }
 
-.star{
+.star {
+    opacity: .5;
     position: absolute;
-    opacity: 50%;
-    animation: mover 10s linear infinite;
+    animation: passar 20s infinite;
+    color: #fff;
+    text-shadow: none;
 }
-@keyframes mover{
-    
-    100%{
+
+@keyframes passar {
+    0% {
+        left: -5%;
+    }
+
+    100% {
         left: 105%;
     }
-    
 }
