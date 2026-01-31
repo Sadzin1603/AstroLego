@@ -1,5 +1,5 @@
 @media screen and (max-width: 770px) {
-    .banner {
+    .banner h1{
         display: none;
     }
 
