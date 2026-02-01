@@ -1,116 +1,121 @@
 @media screen and (max-width: 770px) {
-    .banner h1{
-        display: none;
-    }
+  body {
+    overflow-x: none;
+  }
+  .star {
+    display: none;
+  }
+  .banner h1 {
+    display: none;
+  }
 
-    /* INFORMAÇÕES */
-    .info {
-        flex-direction: column-reverse;
-        height: 100%;
-        gap: 50px;
-        padding: 40px 10px;
-    }
+  /* INFORMAÇÕES */
+  .info {
+    flex-direction: column-reverse;
+    height: 100%;
+    gap: 50px;
+    padding: 40px 10px;
+  }
 
-    .info .text {
-        width: 90%;
-        padding: 0;
-    }
+  .info .text {
+    width: 90%;
+    padding: 0;
+  }
 
-    .info .foto {
-        width: 100%;
-    }
+  .info .foto {
+    width: 100%;
+  }
 
-    .dados {
-        flex-direction: column;
-        padding: 40px 10px;
-    }
+  .dados {
+    flex-direction: column;
+    padding: 40px 10px;
+  }
 
-    .dados .barra {
-        display: none;
-        padding: 40px 10px;
-    }
+  .dados .barra {
+    display: none;
+    padding: 40px 10px;
+  }
 
-    .dados .premios {
-        width: 100%;
-        max-width: 100%;
-        padding: 0;
+  .dados .premios {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
 
-    }
+  .dados .card {
+    width: 150px;
+  }
 
-    .dados .card {
-        width: 150px;
-    }
+  .dados .estatiticas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 100px;
+  }
 
-    .dados .estatiticas {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
-        gap: 100px;
-    }
+  /* Equipes */
+  .principal {
+    flex-direction: column-reverse;
+    padding: 0;
+    padding: 40px 10px;
+  }
 
-    /* Equipes */
-    .principal {
-        flex-direction: column-reverse;
-        padding: 0;
-        padding: 40px 10px;
-    }
+  .principal .text {
+    width: 90%;
+  }
 
-    .principal .text {
-        width: 90%;
-    }
+  .equipe {
+    padding: 40px 10px;
+  }
 
-    .equipe {
-        padding: 40px 10px;
-    }
+  .carrossel {
+    width: 100%;
+    padding: 20px;
+  }
 
-    .carrossel {
-        width: 100%;
-        padding: 20px;
-    }
+  .cards {
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
-    .cards {
-        padding: 0;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+  .card {
+    width: 150px !important;
+  }
 
-    .card {
-        width: 150px !important;
-    }
+  .card img {
+    height: 148px;
+  }
 
-    .card img {
-        height: 148px;
-    }
+  /* ROBOS */
+  .robo {
+    flex-direction: column-reverse;
+    padding: 40px 10px;
+  }
 
-    /* ROBOS */
-    .robo {
-        flex-direction: column-reverse;
-        padding: 40px 10px;
-    }
+  .invertido {
+    flex-direction: column;
+  }
 
-    .invertido{
-        flex-direction: column;
-    }
+  .esq,
+  .dir {
+    width: 100%;
+    padding: 8px;
+  }
 
-    .esq,
-    .dir {
-        width: 100%;
-        padding: 8px;
-    }
-
-    /* PATROCINADORES */
-    .infos{
-        justify-content: center;
-    }
-    .infos .text{
-        width: 100%;
-    }
-    .infos p{
-        padding-left: 5px;
-    }
-    .infos .fotos{
-        display: none;
-    }
+  /* PATROCINADORES */
+  .infos {
+    justify-content: center;
+  }
+  .infos .text {
+    width: 100%;
+  }
+  .infos p {
+    padding-left: 5px;
+  }
+  .infos .fotos {
+    display: none;
+  }
 }
