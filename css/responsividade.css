@@ -1,6 +1,6 @@
 @media screen and (max-width: 770px) {
   body {
-    overflow-x: none;
+    overflow-x: hidden;
   }
   .star {
     display: none;
